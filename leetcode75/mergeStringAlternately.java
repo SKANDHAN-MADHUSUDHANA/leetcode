@@ -1,6 +1,7 @@
 Leetcode 75 (problem 1)
 1768. Merge Strings Alternately
 
+/*
 ### This is a problem which checks your ability to loop though multiple strings ###
 ### Conditional checks for boundaries ###
 ### String construction using StringBuilder ###
@@ -9,11 +10,11 @@ Leetcode 75 (problem 1)
 ### we can apply this logic when two strings or arrays are being used ###
 ### combine or compare elements from both the sequences ###
 ### Merging, Comparing, or synchronizing sequences ###
+*/
 
+// The below solution is in java 
 
-### The below solution is in java ### 
-
-### solution to understand how the logic works in detail ###
+// solution to understand how the logic works in detail 
 class Solution {
 	public String mergeAlternately(String word1, String word2) {
 		StringBuilder merged = new StringBuilder();
@@ -39,7 +40,7 @@ class Solution {
 
 
 
-### More readable solution ###
+// More readable solution 
 
 class Solution{
 	public String mergeAlternately(String word1, String word2){
