@@ -41,3 +41,25 @@ class Solution {
 	}
 
 } 
+
+
+
+
+// we can replace the gcd() method with the below method which is an implementation of Euclidean Algorithms
+
+public static int gcd(int len1, int len2) {
+    while (len2 != 0) {
+        int temp = len2;
+        len2 = len1 % len2;
+        len1 = temp;
+    }
+    return a;
+}
+
+
+
+//recursive approach 
+public static int gcd(int len1, int len2) {
+    if (len2 == 0) return len1;
+    return gcd(len2, len1 % len2);
+}
